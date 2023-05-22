@@ -36,6 +36,15 @@ router.get("/login",(req,res)=>{
     })
 })
 
+router.get("/signup",(req,res)=>{
+    if(req.session.logged_in){
+        return res.redirect("/profile")
+    }
+    res.render("signup",{
+        logged_in:req.session.logged_in
+    })
+})
+
 router.get("/profile",(req,res)=>{
     if(!req.session.logged_in){
         return res.redirect("/login")
