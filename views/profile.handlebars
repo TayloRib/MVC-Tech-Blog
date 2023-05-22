@@ -1,0 +1,25 @@
+<div class="loginbox" id="postbox">
+<h2 class="login">{{name}}'s Posts</h2>
+<h3 class="posts">Posts</h3>
+
+{{#each posts}}
+    <h3 class="postdata">{{title}} 
+        <button id="updatebutton" class="update-btn" data-post-id="{{id}}">Edit</button>
+        <button class="del-btn" data-post-id="{{id}}">Delete</button>
+    </h3>
+{{/each}}
+
+</div>
+
+<div class="loginbox">
+<h3 class="login">Create a New Post</h3>
+<form class="form" action="">
+    <label class="title2" for="title">Title</label>
+    <input class="title" type="text" id="title" placeholder="Give your Post a Title">
+    <label class="description2" for="textarea">Description</label>
+    <textarea id="description" class="description" placeholder="Say Something"></textarea>
+    <button class="postbutton">Post</button>
+</form>
+</div>
+
+<script src="/js/profile.js"></script>

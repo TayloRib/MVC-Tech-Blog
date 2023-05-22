@@ -1,0 +1,124 @@
+html {
+    background-color: rgb(227, 250, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(29, 14, 0);
+    padding: 20px 20px 10px 40px;
+}
+
+.nav {
+    color: rgb(227, 250, 238);
+    text-decoration: none;
+    background-color: rgb(29, 14, 0);
+    border: none;
+    font-size: 20px;
+    padding-right: 5%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.tech {
+    background-color: rgb(227, 250, 238);
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    box-shadow: 6px 5px rgb(163, 163, 163);
+}
+
+.loginbox, .postbox, .postbox2 {
+    border: 3px solid rgb(29, 14, 0);
+    margin: 3%;
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 1%;
+    justify-content: space-between;
+}
+
+.postbox {
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.login, .postdata {
+    width: 100%;
+    margin: 0px;
+    height: 40px;
+    background-color: rgb(29, 14, 0);
+    display: flex;
+    align-items: center;
+    color: rgb(227, 250, 238);
+    padding-left: 3%;
+    justify-content: space-between;
+    padding-right: 1%;
+}
+
+.postdata{
+    margin-bottom: 2%;
+    width: 94%;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.email, .email2, .password, .password2, .username, .username2, .posts, .title, .title2, .description, .description2 {
+    width: 100%;
+    margin: 2% 2% 0% 2%;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+}
+
+.email2, .password2, .username2, .title2, .description2 {
+    height: 20px;
+}
+
+.description {
+    padding-left: 1%;
+}
+
+.loginbutton, .signupbutton, .postbutton, .del-btn, .update-btn, .longedit {
+    width: 30%;
+    height: 40px;
+    background-color: rgb(29, 14, 0);
+    color: rgb(227, 250, 238);
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.del-btn {
+    width: fit-content;
+}
+
+i {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.longedit {
+    width: 100%;
+}
